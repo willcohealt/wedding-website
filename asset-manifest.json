@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wedding-website/static/css/main.9bed1d21.css",
+    "main.js": "/wedding-website/static/js/main.f14583e2.js",
+    "static/js/787.b26ea9af.chunk.js": "/wedding-website/static/js/787.b26ea9af.chunk.js",
+    "static/media/greybarn.jpeg": "/wedding-website/static/media/greybarn.70dd2f893a504e736a2d.jpeg",
+    "static/media/Crest.png": "/wedding-website/static/media/Crest.83faaeb2466b30f76904.png",
+    "static/media/background.jpg": "/wedding-website/static/media/background.c3ed1a1be255a0b29318.jpg",
+    "static/media/landing.jpg": "/wedding-website/static/media/landing.fda222807e819f30a7da.jpg",
+    "static/media/monogram.png": "/wedding-website/static/media/monogram.f408fa661f1012a44dc0.png",
+    "static/media/Arsenal-Regular.ttf.woff": "/wedding-website/static/media/Arsenal-Regular.ttf.c6559c05fb28e55d6ee5.woff",
+    "static/media/Claudya.ttf": "/wedding-website/static/media/Claudya.ab9fcf13e526ee38401c.ttf",
+    "static/media/logo.svg": "/wedding-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/wedding-website/index.html",
+    "main.9bed1d21.css.map": "/wedding-website/static/css/main.9bed1d21.css.map",
+    "main.f14583e2.js.map": "/wedding-website/static/js/main.f14583e2.js.map",
+    "787.b26ea9af.chunk.js.map": "/wedding-website/static/js/787.b26ea9af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bed1d21.css",
+    "static/js/main.f14583e2.js"
+  ]
+}
