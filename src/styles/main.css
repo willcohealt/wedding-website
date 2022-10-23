@@ -1,0 +1,160 @@
+div{
+	font-family: freight-sans-pro,sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+@font-face {
+  font-family: arsenal;
+  src: url(../assets/Arsenal-Regular.ttf.woff);
+}
+
+@font-face {
+	font-family: script;
+	src: url(../assets/Claudya.ttf);
+}
+
+/* other option: condor-compressed,sans-serif; */
+
+.placeholder {
+	height: 100%;
+	width: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 20px; 
+  height: 30%;
+  color: #565656;
+}
+
+.columnL {
+  float: left;
+  width: 50%;
+  color: #565656;
+  border-right: 1px solid #000;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #565656;;
+}
+
+.headerImage{
+	width: 80%;
+	height: auto;
+	float: center;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.headerImageFullWidth {
+	width: 100%;
+	height: auto;
+	float: center;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.headerImageShrunk{
+	width: 50%;
+	height: auto;
+	float: center;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.headerText {
+	font-family: arsenal,sans-serif;
+	font-size: 500%; 
+	font-weight: 400;
+	/*font-size: 36px;*/
+    /*font-weight: 300;*/
+    line-height: 1.2;
+    margin: 0 0 29px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #565656;
+}
+
+.headerScript {
+	font-family: script,sans-serif;
+	font-size: 700%; 
+	font-weight: 550;
+    line-height: 1;
+    margin: 0 0 0px;
+    /*letter-spacing: 2	px;*/
+    /*text-transform: uppercase;*/
+    color: #565656;
+}
+
+.footer {
+	background: #f9f0e3;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.2rem calc((100vw - 1000px) / 2);
+	z-index: 12;
+	/*box-shadow: 0 -4px -10px 2px #9fd0eb;*/
+	border-top: 1px solid #4e6c49;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #4e6c49;
+	/* Third Nav */
+	/* justify-content: flex-start; */
+}
+
+.subheader {
+	font-family: arsenal,sans-serif;
+	font-size: 200%; 
+	font-weight: 300;
+	/*font-size: 36px;*/
+    /*font-weight: 300;*/
+    line-height: 1.2;
+    margin: 0 0 29px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #565656;
+}
+
+.info {
+	font-weight: 300;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 15px;
+	color: #565656;
+}
+
+.column {
+  padding-left: 10px;
+  border-left: #779baf 10px;	
+  float: left;
+  width: 49%;
+  color: #565656;
+}
+
+.customLink {
+	color: #779baf;
+	font-weight: bold;
+}
+
+.hotelName {
+	font-weight: 1000;
+	font-family: arsenal; 
+	font-size:110%;
+	color: #565656;
+}
+
+.hotelAddress {
+	font-weight: 100;
+	/*font-style: italic;*/
+	color: #565656;
+}
+
+.hotelPhone{
+	font-weight:100;
+	font-style: italic; 
+	color: #565656;
+}

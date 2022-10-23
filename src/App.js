@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import React from "react"; 
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar.js";
+import Registry from "./pages/Registry"; 
+import Schedule from "./pages/Schedule"; 
+import Travel from "./pages/Travel"; 
+import WeddingParty from "./pages/WeddingParty";
+import Home from "./pages"; 
+import Accommodations from "./pages/Accommodations"; 
+import Activities from "./pages/Activities"; 
+import Footer from "./components/Footer"; 
+import RSVP from "./pages/RSVP"; 
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Router>
+      <div className="App">
+      <header>
+        <Navbar />
+      </header> 
+        <Routes>
+          <Route path="/" element={<Home />} ></Route>
+          <Route path="/travel" element={<Travel />} ></Route>
+          <Route path="/accommodations" element={<Accommodations />} ></Route>
+          <Route path="/activities" element={<Activities />} ></Route>
+          <Route path="/registry" element={<Registry />} ></Route>
+          <Route path="/rsvp" element={<RSVP />}></Route>
+        </Routes>
+      </div>
+      </Router>
+      <Footer />
+</React.Fragment>
   );
 }
 

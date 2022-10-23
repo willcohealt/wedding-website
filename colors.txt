@@ -1,0 +1,9 @@
+Dark Blue: #779baf
+Light Blue: #9fd0eb
+Lightest Blue: #dfeef6
+Dark Green: #4e6c49
+Medium Green: #a5bc85
+Light Green: #d2e6bc
+Hobie Cream: #f9f0e3
+Bell Grey: #c5c8c3
+Bell White: #f3eee0
